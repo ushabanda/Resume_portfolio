@@ -4,9 +4,9 @@
 <head>
     <meta charset="utf-8">
     <title>Usha Resume</title>
-    <link rel="stylesheet" href="portfolio-style.css">
-    <link rel="stylesheet" href="animstyle.css">
-    <script src="jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/portfolio-style.css">
+    <link rel="stylesheet" href="assets/animstyle.css">
+    <script src="assets/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
