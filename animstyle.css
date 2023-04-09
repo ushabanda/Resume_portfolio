@@ -1,0 +1,77 @@
+.blinking {
+    -webkit-animation: .8s blink ease infinite;
+    -moz-animation: .8s blink ease infinite;
+    -ms-animation: .8s blink ease infinite;
+    -o-animation: .8s blink ease infinite;
+    animation: .8s blink ease infinite;
+    vertical-align: middle;
+    margin-left: 5px;
+  }
+
+  .expblinking {
+    -webkit-animation: .7s blink ease infinite;
+    -moz-animation: .7s blink ease infinite;
+    -ms-animation: .7s blink ease infinite;
+    -o-animation: .7s blink ease infinite;
+    animation: .7s blink ease infinite;
+    vertical-align: middle;
+    /* margin-left: 5px; */
+  }
+
+  .circle{
+      cx:5px;
+      cy:5px;
+      r:5px;
+      fill:#000;      
+  }
+  
+  @keyframes "blink" {
+    from,
+    to {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  
+  @-moz-keyframes blink {
+    from,
+    to {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  
+  @-webkit-keyframes "blink" {
+    from,
+    to {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  
+  @-ms-keyframes "blink" {
+    from,
+    to {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  
+  @-o-keyframes "blink" {
+    from,
+    to {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  

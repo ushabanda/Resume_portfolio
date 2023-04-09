@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Usha Resume</title>
+    <link rel="stylesheet" href="portfolio-style.css">
+    <link rel="stylesheet" href="animstyle.css">
+    <script src="jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body onload="pageload()">
+    <div class="bodyBox">
+        <div class="profileBox">
+            <div class="imgLinksBox">
+                <div class="profileImageBox">
+                    <img src="images/usha-image.jpg" alt="Usha" class="profileImg">
+                </div>
+                <div class="profileDetailsBox">
+                    <div class="textBox" style="margin-bottom:10px">
+                        <span class="txtSpanName">Usha</span>
+                    </div>
+                    <div class="textBox">
+                        <span class="txtSpan">(+91) 9964339367<a href="tel:9964339367">
+                                <img src="images/telephone.png" class="iconImg" /></a></span>
+                    </div>
+                    <div class="textBox">
+                        <span class="txtSpan">usha44hsm@gmail.com<a href="mailto:usha44hsm@gmail.com"><img
+                                    src="images/gmail.png" class="iconImg" /></a></span>
+                    </div>
+                    <div class="textBox">
+                        <span class="txtSpan">
+                            <a href="https://github.com/ushabanda/" target="_blank"><img src="images/github.png"
+                                    class="socialIcons" /></a>
+                            <a href="https://www.linkedin.com/in/usha-b-70277821a/" target="_blank"><img
+                                    src="images/linkedin.png" class="socialIcons" /></a>
+                            <!-- <a href="https://stackoverflow.com/users/3451858/c0der" target="_blank"><img src="images/stack-overflow.png" class="socialIcons"/></a> -->
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="menuBox">
+                <div class="menuItemBox">
+                    <span class="menutxtSpan" id="aboutBtn"><img src="images/about.png" class="menuiconImg" />About Me
+                        <svg height="12" width="15" class="blinking">
+                            <circle class="circle" id="aboutIndicator" />
+                        </svg>
+                    </span>
+                </div>
+                <div class="menuItemBox">
+                    <span class="menutxtSpan" id="workBtn"><img src="images/works.png" class="menuiconImg" />Works
+                        <svg height="12" width="15" class="blinking">
+                            <circle class="circle" id="skillIndicator" />
+                        </svg>
+                    </span>
+                </div>
+                <div class="menuItemBox">
+                    <span class="menutxtSpan" id="experienceBtn"><img src="images/experience.png"
+                            class="menuiconImg" />Experience
+                        <svg height="12" width="15" class="blinking">
+                            <circle class="circle" id="experienceIndicator" />
+                        </svg>
+                    </span>
+                </div>
+                <div class="menuItemBox">
+                    <span class="menutxtSpan" id="achievementaboutBtn"><img src="images/awards.png"
+                            class="menuiconImg" />Certification
+                        <svg height="12" width="15" class="blinking">
+                            <circle class="circle" id="achievementsIndicator" />
+                        </svg>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="projectBox">
+            <!-- About Page - start -->
+            <div class="aboutBox" id="aboutBox">
+                <span class="slideHeading">About Me</span>
+                <br />
+                <div class="contentBox">
+                    Software Engineer with 2+ years of experience currently working in Javascript Technology. Skilled in
+                    Web development using HTML, CSS, Bootstrap and Javascript.
+                    Capable of working with a variety of technology and software solutions, and managing databases.
+                    Valuable team member who has experience in diagnosing problems and developing solutions.
+                    <br /><br />
+                    <span class="headingTxtSpan">Skills</span>
+                    <div class="grid-container">
+                        <!-- <div class="grid-item"><img src="images/python.png"
+                                class="SkilliconImg" />Python</div> -->
+                        <div class="grid-item"><img src="images/html.png" class="SkilliconImg" />HTML</div>
+                        <div class="grid-item"><img src="images/css.png" class="SkilliconImg" />CSS</div>
+                        <div class="grid-item"><img src="images/js.png" class="SkilliconImg" />Javascript</div>
+                        <!-- <div class="grid-item"><img src="images/react.png"
+                                class="SkilliconImg" />React JS</div>
+                        <div class="grid-item"><img src="images/web.png" class="SkilliconImg" />Web
+                            Technologies</div> -->
+                    </div>
+                    <br />
+                    <span class="headingTxtSpan">Hobbies</span>
+                    <div class="grid-container">
+                        <div class="grid-item">
+                            <img src="images/code.png" class="SkilliconImg" /><span class="spanHobbies">Coding</span>
+                        </div>
+                    </div>
+                    <br />
+                    <a href="https://docs.google.com/document/d/1dkTIgwqGfJ0aVxYHf-Gw81SdGH4pP0U2BISWYEKfPvg/edit?usp=sharing"
+                        target="_blank" class="companyHref">
+                        <span class="resumeTxtSpan">
+                            Download my Resume<img src="images/download.png" class="resumeiconImg" />
+                        </span></a>
+                    <br /><br /><br /><br />
+
+                </div>
+            </div>
+            <!-- Work Page - start -->
+            <div class="workBox" id="workBox">
+                <span class="slideHeading">Works</span>
+                <div class="contentBox">
+
+
+                    <span class="headingTxtSpan"><a class="companyHref" href="#">Personal Projects</a></span><br />
+                    <!-- <span class="projectSpan">
+                        <div class="projectHeading">
+                            <svg height="12" width="15">
+                                <circle class="projectDot"></circle>
+                            </svg>
+                            Website - <a class="companyHref" href="https://vineeshviswanath.com"
+                                target="_blank">www.vineeshviswanath.com</a>
+                        </div>
+                    </span> -->
+                    <div class="projectDesc">
+                        <div style="width:100%;margin-bottom:5px;">
+                            Need to complete.
+                        </div>
+                        <!-- <div class="subHeadingGroup"><div class="subHeading">Languages used</div>- PHP CodeIgniter framework</div>                         -->
+                    </div>
+
+                    <br /><br /><br />
+                    <span class="headingTxtSpan"><a class="companyHref" href="https://www.wipro.com/"
+                            target="_blank">Accenture</a></span><br />
+                    <span class="projectSpan">
+                        <div class="projectHeading">
+                            <svg height="12" width="15">
+                                <circle class="projectDot"></circle>
+                            </svg>
+                            Configuring static routes, Telnet and SSH on Cisco and Juniper.
+                            <br /><svg height="12" width="15">
+                                <circle class="projectDot"></circle>
+                            </svg>
+                            Handling various US Clients and Field Technicians.
+                            <br /><svg height="12" width="15">
+                                <circle class="projectDot"></circle>
+                            </svg>
+                            Have worked as POC for SDWAN Viptela PrCurrently working for Verizon client and have
+                            hands-on Experience on Cisco, Viptela and Juniper devices.
+                            <!-- <br /><svg height="12" width="15">
+                                <circle class="projectDot"></circle>
+                            </svg> -->
+                            <!-- Worked with Teradata and oracle libraries for extracting and loading data.
+                            <br /><svg height="12" width="15">
+                                <circle class="projectDot"></circle>
+                            </svg>
+                            Quickly Learned AppleScript for generating keynote file based on data input from front end.
+                            <br /><svg height="12" width="15">
+                                <circle class="projectDot"></circle>
+                            </svg>
+                            Developed Flask API for executing AppleScript for keynote file generation.
+                            <br /><svg height="12" width="15">
+                                <circle class="projectDot"></circle>
+                            </svg>
+                            Worked in React UI code for connecting front end data to flask API.
+                            <br /><svg height="12" width="15">
+                                <circle class="projectDot"></circle>
+                            </svg>
+                            Created or modified SQL queries for extracting and inserting data to tables.
+                            <br /><svg height="12" width="15">
+                                <circle class="projectDot"></circle>
+                            </svg>
+                            Worked in Snowflake for creating Tables, Views and loading data using python.-->
+                        </div>
+                    </span>
+
+                    <br />
+                    <span class="headingTxtSpan"><a class="companyHref" href="https://www.quest-global.com/"
+                            target="_blank">Wipro</a></span><br />
+                    <span class="projectSpan">
+                        <div class="projectHeading">
+                            <svg height="12" width="15">
+                                <circle class="projectDot"></circle>
+                            </svg>
+                            Have worked on Vodafone-Idea cellular Ltd ISP Network Monitoring and Implementation Project.
+                            <br /><svg height="12" width="15">
+                                <circle class="projectDot"></circle>
+                            </svg>
+                            Accessing Routers and Switches to check and analyze issues remotely (Link Down/Flap, Link
+                            High utilization, CPU utilization, High Latency and Packet drop).
+                            <br /><svg height="12" width="15">
+                                <!-- <circle class="projectDot"></circle>-->
+                            </svg>
+                            <!-- Coordinating with the internal tools team for auto reports and  providing the same to customers.
+                            <br /><svg height="12" width="15">
+                                <circle class="projectDot"></circle>
+                            </svg>
+                            Developed Shell scripts for loading data to oracle tables and triggering emails.
+                            <br /><svg height="12" width="15">
+                                <circle class="projectDot"></circle>
+                            </svg>
+                            Worked with Teradata and oracle libraries for extracting and loading data.
+                            <br /><svg height="12" width="15">
+                                <circle class="projectDot"></circle>
+                            </svg>
+                            Created or modified SQL queries for extracting and inserting data to tables.</svg> -->
+
+                        </div>
+                    </span>
+
+                    <!-- <br />
+                    <span class="headingTxtSpan"><a class="companyHref" href="https://www.bigleaponline.com/"
+                            target="_blank">Bigleap</a></span><br />
+                    <span class="projectSpan">
+                        <div class="projectHeading">
+                            <svg height="12" width="15">
+                                <circle class="projectDot"></circle>
+                            </svg>
+                            Worked on full stack development using java MVC.
+                            <br /><svg height="12" width="15">
+                                <circle class="projectDot"></circle>
+                            </svg>
+                            Created or modified SQL queries for extracting and inserting data to tables.
+                            <br /><svg height="12" width="15">
+                                <circle class="projectDot"></circle>
+                            </svg>
+                            Created and modified webpage styles using CSS.
+                            <br /><svg height="12" width="15">
+                                <circle class="projectDot"></circle>
+                            </svg>
+                            Worked in AJAX and JQuery for adding dynamic contents in webpage.
+
+
+                        </div>
+                    </span>
+
+                    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> -->
+
+
+
+                </div>
+            </div>
+            <!-- Experience Page - start -->
+            <div class="experienceBox" id="experienceBox">
+                <span class="slideHeading">Experience</span>
+                <div class="contentBox">
+
+
+                    <br />
+                    <span class="projectSpan">
+                        <div class="projectHeading">
+                            <svg height="12" width="15" class="expblinking">
+                                <circle class="projectDot"></circle>
+                            </svg>
+                            MERN Stack student at <a href="https://www.jspiders.com/" class="companyHref"
+                                target="_blank">Jspiders</a>.
+                        </div>
+                    </span>
+                    <div class="projectDesc">
+                        <div class="subHeadingGroup">
+                            <div class="expSubHeading">Duration : </div>January 2023 to till date.
+                        </div>
+                    </div>
+
+
+                    <br /><br />
+                    <span class="projectSpan">
+                        <div class="projectHeading">
+                            <svg height="12" width="15">
+                                <circle class="projectDot"></circle>
+                            </svg>
+                            Network Engineer at <a href="https://www.accenture.com/in-en/" class="companyHref"
+                                target="_blank"> Accenture solutions</a>.
+                        </div>
+                    </span>
+                    <div class="projectDesc">
+                        <div class="subHeadingGroup">
+                            <div class="expSubHeading">Duration : </div>November 2019 to January 2023.
+                        </div>
+                    </div>
+
+                    <br /><br />
+                    <span class="projectSpan">
+                        <div class="projectHeading">
+                            <svg height="12" width="15">
+                                <circle class="projectDot"></circle>
+                            </svg>
+                            Network Engineer at <a href="https://www.wipro.com/" class="companyHref"
+                                target="_blank">Wipro</a>
+                        </div>
+                    </span>
+                    <div class="projectDesc">
+                        <div class="subHeadingGroup">
+                            <div class="expSubHeading">Duration : </div>January 2018 to October 2019.
+                        </div>
+                    </div>
+                    <br /><br />
+                    <!-- <span class="projectSpan">
+                        <div class="projectHeading">
+                            <svg height="12" width="15">
+                                <circle class="projectDot"></circle>
+                            </svg>
+                            Network Engineer at <a href="https://www.wipro.com/" class="companyHref"
+                                target="_blank">Wipro</a> 
+                        </div>
+                    </span>
+                    <div class="projectDesc">
+                        <div class="subHeadingGroup">
+                            <div class="expSubHeading">Duration : </div> January 2018 to October 2019.
+                        </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- Acheivement Page - start -->
+        <div class="acheivementsBox" id="acheivementsBox">
+            <span class="slideHeading">Certification</span>
+            <div class="contentBox">
+                <img src="images/udemy_certificate.jpg" class="awardImg" alt="on the fly award" />
+            </div>
+        </div>
+        <!-- end -->
+    </div>
+    </div>
+
+    <div class="footerDiv">
+        Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" class="footerDivHref" target="_blank"
+            title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" class="footerDivHref"
+            target="_blank" title="Flaticon">www.flaticon.com</a>
+    </div>
+
+    <script>
+        function pageload() {
+
+            document.getElementById("workBox").style.display = "none";
+            document.getElementById("experienceBox").style.display = "none";
+            document.getElementById("acheivementsBox").style.display = "none";
+            document.getElementById("aboutBox").style.display = "block";
+
+            document.getElementById("skillIndicator").style.display = "none";
+            document.getElementById("experienceIndicator").style.display = "none";
+            document.getElementById("achievementsIndicator").style.display = "none";
+            document.getElementById("aboutIndicator").style.display = "block";
+
+            document.getElementById("aboutBtn").addEventListener('click', function () {
+                document.getElementById("workBox").style.display = "none";
+                document.getElementById("experienceBox").style.display = "none";
+                document.getElementById("acheivementsBox").style.display = "none";
+                document.getElementById("aboutBox").style.display = "block";
+
+                document.getElementById("skillIndicator").style.display = "none";
+                document.getElementById("experienceIndicator").style.display = "none";
+                document.getElementById("achievementsIndicator").style.display = "none";
+                document.getElementById("aboutIndicator").style.display = "block";
+            })
+
+
+            document.getElementById("workBtn").addEventListener('click', function () {
+                document.getElementById("acheivementsBox").style.display = "none";
+                document.getElementById("aboutBox").style.display = "none";
+                document.getElementById("experienceBox").style.display = "none";
+                document.getElementById("workBox").style.display = "block";
+
+                document.getElementById("skillIndicator").style.display = "none";
+                document.getElementById("experienceIndicator").style.display = "none";
+                document.getElementById("achievementsIndicator").style.display = "none";
+                document.getElementById("aboutIndicator").style.display = "none";
+            });
+
+            document.getElementById("experienceBtn").addEventListener('click', function () {
+                document.getElementById("acheivementsBox").style.display = "none";
+                document.getElementById("aboutBox").style.display = "none";
+                document.getElementById("workBox").style.display = "none";
+                document.getElementById("experienceBox").style.display = "block";
+
+                document.getElementById("skillIndicator").style.display = "none";
+                document.getElementById("aboutIndicator").style.display = "none";
+                document.getElementById("achievementsIndicator").style.display = "none";
+                document.getElementById("experienceIndicator").style.display = "block";
+            });
+
+
+            document.getElementById("achievementaboutBtn").addEventListener('click', function () {
+                document.getElementById("acheivementsBox").style.display = "block";
+                document.getElementById("aboutBox").style.display = "none";
+                document.getElementById("workBox").style.display = "none";
+                document.getElementById("experienceBox").style.display = "none";
+
+                document.getElementById("skillIndicator").style.display = "none";
+                document.getElementById("aboutIndicator").style.display = "none";
+                document.getElementById("achievementsIndicator").style.display = "block";
+                document.getElementById("experienceIndicator").style.display = "none";
+            });
+
+        }
+
+        // $(document).ready(function () {
+        //     $("#workBox, #experienceBox, #acheivementsBox").hide();
+        //     $("#aboutBox").show();
+
+        //     $("#skillIndicator, #experienceIndicator, #achievementsIndicator").hide();
+        //     $("#aboutIndicator").show();
+
+        //     $("#aboutBtn").click(function () {
+        //         $("#workBox, #experienceBox, #acheivementsBox").hide();
+        //         $("#aboutBox").fadeIn(100);
+
+        //         $("#skillIndicator, #experienceIndicator, #achievementsIndicator").hide();
+        //         $("#aboutIndicator").show();
+        //     });
+
+        //     $("#workBtn").click(function () {
+        //         $("#experienceBox, #acheivementsBox, #aboutBox").hide();
+        //         $("#workBox").fadeIn(100);
+
+        //         $("#skillIndicator").show();
+        //         $("#experienceIndicator, #achievementsIndicator, #aboutIndicator").hide();
+
+        //     });
+
+        //     $("#experienceBtn").click(function () {
+        //         $("#workBox, #acheivementsBox, #aboutBox").hide();
+        //         $("#experienceBox").fadeIn(100);
+
+        //         $("#experienceIndicator").show();
+        //         $("#skillIndicator, #achievementsIndicator, #aboutIndicator").hide();
+
+        //     });
+
+        //     $("#achievementaboutBtn").click(function () {
+        //         $("#workBox, #experienceBox, #aboutBox").hide();
+        //         $("#acheivementsBox").fadeIn(100);
+
+        //         $("#skillIndicator, #experienceIndicator, #aboutIndicator").hide();
+        //         $("#achievementsIndicator").show();
+        //     });
+
+        // });
+    
+    </script>
+</body>
+
+</html>
